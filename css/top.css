@@ -1,0 +1,10 @@
+.top {
+  margin-top: 1.75rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: rgb(92, 85, 85);
+}
+
+.top > h1 {
+  margin-bottom: 0.2rem;
+}

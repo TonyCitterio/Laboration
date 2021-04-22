@@ -1,0 +1,56 @@
+.main {
+  background: linear-gradient(to right top, #5c5c5c, #ffffff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text h3,
+.text ul,
+.text p {
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
+}
+
+.text h3 {
+  padding-top: 0.3rem;
+}
+
+.text ul {
+  list-style-type: none;
+}
+
+.pt {
+  padding-top: 0.75rem;
+}
+
+.pt2 {
+  padding-top: 1rem;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 700px) {
+  .text h3,
+  .text ul,
+  .text li,
+  .text p {
+    text-align: center;
+  }
+  .text li {
+    padding-bottom: 0.3rem;
+  }
+  .hide {
+    display: none;
+  }
+}
+
+@media (min-width: 701px) {
+  .hide1 {
+    display: none;
+  }
+}
